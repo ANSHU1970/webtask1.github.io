@@ -12,33 +12,33 @@ h1{
 
 .myself{
     width: 80%;
-    padding: 60px 0px;
+    padding: 50px 0px;
     margin-left: 10%;
     align-items: center;
     justify-content: center;
     /* background-image: linear-gradient(19deg, #615e5ef8 45%, #fffefeec 170%); */
     filter: opacity(100%);
     border-radius: 5%;
-    background: rgba(255, 255, 255, .2);
+    background: rgba(229, 229, 229, 0.421);
     box-shadow: 0 5px 15px rgba(0,0,0,.5);
 }
 
 .gallery{
     display: flex;
     width: 80%;
-    padding: 50px 0px;
+    padding: 40px 0px;
     margin-left: 2.5%;
     /* background-image: linear-gradient(19deg, #615e5ef8 55%, #fffefeec 170%); */
-    background: rgba(255, 255, 255, .2);
+    background: rgba(229, 229, 229, 0.421);
     box-shadow: 0 5px 15px rgba(0,0,0,.5);
-    margin: auto;
-    margin-top: 0%;
+    margin:auto;
+    margin-top: 1%;
     align-items: center;
     justify-content: center;
     height: 30vh;
     filter: opacity(90%);
     border-radius: 3%;
-
+    
 }
 
 .bg{
@@ -102,7 +102,7 @@ h1{
 }
 
 .about-text{
-    width: 600px;
+    width: 500px;
 
 }
 
@@ -123,7 +123,7 @@ h1{
 .about-text p{
     color: black;
     letter-spacing: 1px;
-    line-height: 28px;
+    line-height: 20px;
 }
 .main{
     width: 1130px;
@@ -236,7 +236,7 @@ border-radius: 20%;
     #pic3{width: 280px;}
     #w4{width: 280px;}
     #x{width: 250px;}
-    #about-text1{padding-left: 10px; }
+    #about-text1{padding-left: 3px; }
     #about-text2{padding-right: 10px;}
 
 }
@@ -256,13 +256,15 @@ border-radius: 20%;
 }
 
 @media screen and (max-width: 970px) {
-    #pic3{width: 350px;}
-    #w4{width: 350px;}
+    #pic3{width: 220px;height: auto;}
+    #w4{width: 220px; height: auto;}
     #x{width: 348px;}
+    #bleach{height: 100px; width: 200px;}
     .photos img{
         margin: 1%;
         display: flex;
         flex-direction: column;
+        
     }
     #gallery{
         height: 50vh;
@@ -280,15 +282,15 @@ border-radius: 20%;
 
 @media screen and (max-width: 650px) {
     #mypic{width: 300px;}
-    #pic3{width: 300px;}
-    #w4{width: 300px;}
+    #pic3{width: 150px;}
+    #w4{width: 150px;}
     #x{width: 298px;}
 }
 
 @media screen and (max-width: 500px) {
     #mypic{width: 280px;}
-    #pic3{width: 280px;}
-    #w4{width: 280px;}
+    #pic3{width: 175px;}
+    #w4{width: 175px;}
     #x{width: 278px;}
     .about-text{width: 250px;}
     #bgimg3{width: 250px;}
@@ -296,15 +298,17 @@ border-radius: 20%;
 
 @media screen and (max-width: 425px){
     #mypic{width: 230px;}
-    #pic3{width: 230px;}
-    #w4{width: 230px;}
+    #pic3{width: 150px;
+    margin-right: 4px;}
+    #w4{width: 150px;
+    margin-right: 4px;}
     #x{width: 228px;}
-    .about-text{width: 250px;}
+    .about-text{width: 180px;}
 }
 
 
 @media screen and (max-width: 380px){
-    #bgimg3{width: 250px; height: 250px;}
+    #bgimg3{width: 150px; height: 150px;}
     #gallery{height: 60vh; width: fit-content;}
     
     
@@ -314,3 +318,14 @@ border-radius: 20%;
     #twitter{display: block;} */
     .lnks{display: block;}
 }
+@media screen and (max-width:253px) {
+     p.txt{
+        font-size: 15px;
+     } 
+}
+@media screen and (max-width:268px) {
+.about-text{
+    width: 15px;
+}
+}
+
